@@ -1,0 +1,68 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+ 
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background:url("images/mask.jpg");
+  width:100%;
+  height:50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size:12px;
+}
+
+/*styling the title*/
+.project-title{
+  font-family: 'Lobster', cursive;
+}
+
+/*styling the wrapping container*/
+.container{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+ width:100vh;
+  height:100vh;
+ 
+}
+/*styling the jumbotron*/
+.center{
+  
+  background-color:#f4c2c2!important;
+  color:#622056;
+ 
+
+}
+/*styling the button container*/
+.the-facts{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+/*styling the button itself*/
+
+.get-facts{
+ background-color: #622056;
+ color:#dede29;
+ font-weight:700;
+ padding:.5em .5em;
+  border-radius:.5em;
+  outline:none;
+  margin:2em 0 0 10em;
+}
+/*responsive design*/
+@media only screen and (min-width: 1980px){
+.project-title{
+  font-size: 32px;
+}
+.the-facts{
+  font-size:20px;
+}
+.get-facts{
+  font-size:20px;
+ 
+}
+}
