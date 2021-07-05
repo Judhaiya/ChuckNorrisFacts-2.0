@@ -3,7 +3,7 @@ let button=document.querySelector(".get-facts");
 let factimage=document.querySelector(".fact-image");
 let facts=document.querySelector(".the-facts")
 //listening for an event on the button
-button.addEventListener("click",pitchjoke,captionChange)
+button.addEventListener("click",pitchjoke)
 //fetching response from api and updating in DOM
 function pitchjoke(){
 fetch(' https://api.chucknorris.io/jokes/random')
